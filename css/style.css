@@ -12,7 +12,7 @@
     height: 80px;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
     align-content: center;
     width: 100%;
     position: fixed;
@@ -29,7 +29,7 @@
 .textmenu {
     font-size: 15px;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 0px;
     display: flex;
     gap: 15px;
 
@@ -52,7 +52,7 @@
     width: 170px;
     position: absolute;
     left: 0;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 30px;
 }
 
@@ -270,3 +270,52 @@ a:hover {
     width: max-content;
 }
 
+.resp {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .menu {
+        display: none;
+    }
+    .textmenu2 {
+        display: none;
+    }
+    .resp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        width: 70px;
+        height: 35px;
+        background-color: #ffffff78;
+        border-radius: 5px;
+
+    }
+
+    .resp:hover {
+        background-color: #ffffffc2;
+    }
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 586px) {
+
+    .forbutton {
+        max-width:fit-content;
+    }
+    .forbuttony {
+        max-width: fit-content;
+
+    }
+
+    .button1 {
+        margin-bottom: 10px;
+    }
+}
