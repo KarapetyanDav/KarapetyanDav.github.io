@@ -309,9 +309,11 @@ a:hover {
 
     .forbutton {
         max-width:fit-content;
+        width: auto;
     }
     .forbuttony {
         max-width: fit-content;
+        width: auto;
 
     }
 
@@ -319,3 +321,4 @@ a:hover {
         margin-bottom: 10px;
     }
 }
+
