@@ -16,7 +16,7 @@
     align-content: center;
     width: 100%;
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     background-color: #ffffff24;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -270,8 +270,50 @@ a:hover {
     width: max-content;
 }
 
+
+
+.respmenu {
+    display: none;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    z-index: 999;
+    position: relative;
+    
+}
+
+.xicon {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.rightrespmenu {
+    height: 100vh;
+    width: 230px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+}
+
+.rightmenu {
+    position: absolute;
+    list-style: none;
+    top: 100px;
+    left: 35px;
+    font-size: 17px;
+    font-family: 'Montserrat';
+
+}
+
 .resp {
     display: none;
+}
+
+.amenul {
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 960px) {
@@ -285,20 +327,28 @@ a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
+        font-family: 'Montserrat';
+        z-index: 996;
+     }
+     #menubutton {
         margin-right: 30px;
         width: 70px;
         height: 35px;
         background-color: #ffffff78;
         border-radius: 5px;
+        border: none;
+        font-family: 'Montserrat';
+        cursor: pointer;
 
-    }
+     }
 
-    .resp:hover {
+    #menubutton:hover {
         background-color: #ffffffc2;
     }
     .navbar {
         display: flex;
         justify-content: flex-end;
+        z-index: 997;
     }
 
    
