@@ -7,13 +7,17 @@
     <title>Tesla</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicon.ico">
+    <script src="js/main.js"></script>
+    
 </head>
 
 <body>
     <section class="stesla0">
         <div class="pics">
+            
             <header class="navbar">
-                <div class="resp"><span>Menu</span></div>
+                
+                <div class="resp"><button id="menubutton" onclick="menubutton()">Menu</button></div>
                 <div class="logo">
                     <a class="teslog" href="index.html"> <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
                             viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
@@ -38,6 +42,23 @@
                     <a class="acou" href="index.html">Account</a>
                 </div>
             </header>
+
+            <div id="respmenujs" class="respmenu">
+                <div class="rightrespmenu">
+                    <svg class="xicon" onclick="xicon() " viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.53 17.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.748.748 0 0 1-1.06 0 .75.75 0 0 1 0-1.06L10.94 12 5.47 6.53a.75.75 0 1 1 1.06-1.06L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47z" fill="currentColor"></path></svg>
+                    <ul class="rightmenu">
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Model S</a></li>
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Model Y</a></li>
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Model 3</a></li>
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Model X</a></li>
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Solar Panel</a></li>
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Solar Roof</a></li>
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Test Drive</a></li>
+                        <li class="amenul"><a class="amenu" href="https://www.apple.com" target="_blank">Accsessories</a></li>
+                    </ul>
+                </div>
+            </div>
+            
             <div class="teslatext3">
                 <p>Model 3</p>
             </div>
