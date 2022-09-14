@@ -276,6 +276,7 @@ a:hover {
     display: none;
     height: 100vh;
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     z-index: 999;
     position: relative;
     
