@@ -7,7 +7,7 @@
 
 
 .navbar {
-    font-family: 'Montserrat-Semibold';
+    font-family: 'Montserrat Semibold';
     
     height: 80px;
     display: flex;
@@ -79,7 +79,7 @@ a:hover {
 .teslatext3 {
 
     font-size: 40px;
-    font-family: 'Montserrat-Semibold';
+    font-family: 'Montserrat Semibold';
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -90,7 +90,7 @@ a:hover {
 .textsfortesla {
 
     font-size: 15px;
-    font-family: 'Montserrat-Semibold';
+    font-family: 'Montserrat Semibold';
     position: absolute;
     top: 170px;
     color: rgb(43, 43, 43);
@@ -141,7 +141,7 @@ a:hover {
 
 .modely {
     font-size: 40px;
-    font-family: 'Montserrat-Semibold';
+    font-family: 'Montserrat Semibold';
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -152,7 +152,7 @@ a:hover {
 .textsforteslay {
 
     font-size: 15px;
-    font-family: 'Montserrat-Semibold';
+    font-family: 'Montserrat Semibold';
     position: absolute;
     top: 180px;
     color: rgb(43, 43, 43);
@@ -207,7 +207,7 @@ a:hover {
     height: 40px;
     background-color: rgb(47, 67, 79);
     color: white;
-    font-family: montserrat-light;
+    font-family: 'Montserrat Light';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,7 +223,7 @@ a:hover {
   font-size: 15px;
   height: 40px;
   width: 264px;
-  font-family: montserrat-medium;
+  font-family: 'Montserrat Medium';
   border-radius: 5px;
   margin-right: 10px;
   
@@ -240,7 +240,7 @@ a:hover {
   font-size: 15px;
   height: 40px;
   width: 264px;
-  font-family: montserrat-medium;
+  font-family: 'Montserrat Medium';
   border-radius: 5px;
   
   
