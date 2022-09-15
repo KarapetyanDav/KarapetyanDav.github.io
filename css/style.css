@@ -7,8 +7,8 @@
 
 
 .navbar {
-    font-family: 'Montserrat Semibold';
-    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -79,7 +79,8 @@ a:hover {
 .teslatext3 {
 
     font-size: 40px;
-    font-family: 'Montserrat Semibold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -90,7 +91,8 @@ a:hover {
 .textsfortesla {
 
     font-size: 15px;
-    font-family: 'Montserrat Semibold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     position: absolute;
     top: 170px;
     color: rgb(43, 43, 43);
@@ -141,18 +143,21 @@ a:hover {
 
 .modely {
     font-size: 40px;
-    font-family: 'Montserrat Semibold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     top: 120px;
+    
     
 }
 
 .textsforteslay {
 
     font-size: 15px;
-    font-family: 'Montserrat Semibold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     position: absolute;
     top: 180px;
     color: rgb(43, 43, 43);
@@ -207,7 +212,8 @@ a:hover {
     height: 40px;
     background-color: rgb(47, 67, 79);
     color: white;
-    font-family: 'Montserrat Light';
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,9 +229,11 @@ a:hover {
   font-size: 15px;
   height: 40px;
   width: 264px;
-  font-family: 'Montserrat Medium';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   border-radius: 5px;
   margin-right: 10px;
+  animation: bounceInLeft 1s;
   
   
 }
@@ -240,8 +248,10 @@ a:hover {
   font-size: 15px;
   height: 40px;
   width: 264px;
-  font-family: 'Montserrat Medium';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   border-radius: 5px;
+  animation: bounceInRight 1s;
   
   
 }
@@ -275,10 +285,11 @@ a:hover {
 .respmenu {
     display: none;
     height: 100vh;
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     z-index: 999;
     position: relative;
+    animation: fadeIn 0.5s;
     
 }
 
@@ -297,6 +308,7 @@ a:hover {
     position: absolute;
     right: 0;
     background-color: white;
+    animation: fadeInRight 0.5s;
 }
 
 .rightmenu {
@@ -305,7 +317,8 @@ a:hover {
     top: 100px;
     left: 35px;
     font-size: 17px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 
 }
 
@@ -328,7 +341,8 @@ a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
         z-index: 996;
      }
      #menubutton {
@@ -338,8 +352,10 @@ a:hover {
         background-color: #ffffff78;
         border-radius: 5px;
         border: none;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
         cursor: pointer;
+        font-size: 15px;
 
      }
 
@@ -371,5 +387,22 @@ a:hover {
     .button1 {
         margin-bottom: 10px;
     }
+}
+
+.slaq {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 30px;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+    animation: fadeInDown 2s infinite;
+    
+}
+
+
+p {
+    animation: fadeInDown 1.5s;
 }
 
