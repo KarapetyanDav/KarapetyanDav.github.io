@@ -288,8 +288,10 @@ a:hover {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     z-index: 999;
-    position: relative;
+    position: fixed;
     animation: fadeIn 0.5s;
+    left: 0;
+    right: 0;
     
 }
 
