@@ -518,12 +518,12 @@
 }
 
 .callicon {
-    height: fit-content;
+    height: auto;
     width: 20px;
 }
 
 .mailicon {
-    height: fit-content;
+    height: auto;
     width: 23px;
 }
 
