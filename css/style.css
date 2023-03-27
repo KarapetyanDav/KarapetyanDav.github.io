@@ -1,417 +1,137 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-.navbar {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    position: fixed;
-    z-index: 998;
-    background-color: #ffffff24;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-
-
-}
-
-.menu {}
-
-.textmenu {
-    font-size: 15px;
-    list-style: none;
-    margin-top: 0px;
-    display: flex;
-    gap: 15px;
-
-
-
-
-
-}
-
-.textmenu2 {
-    font-size: 15px;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    display: flex;
-    gap: 15px;
-}
-
-.logo {
-    width: 170px;
-    position: absolute;
-    left: 0;
-    margin-top: 0px;
-    margin-left: 30px;
-}
-
-a:active {
-    color: blue;
-}
-
-a:visited {
-    color: rgb(43, 43, 43);
-}
-
-a:link {
-    text-decoration: none;
-    color: rgb(43, 43, 43);
-}
-
-a:hover {
-    color: rgb(205, 71, 44);
-    
-}
-
-
-
-.teslatext3 {
-
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 120px;
-    width: 100%;
-    text-align: center;
-}
-
-
-.textsfortesla {
-
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    position: absolute;
-    top: 170px;
-    color: rgb(43, 43, 43);
-    left: 50%;
-    transform: translate(-50%);
-    padding: 10px;
-    text-align: center;
-    width: 80%;
-    text-align: center;
-}
-
-.teslatext5 {
-    text-decoration: underline;
-}
-
-
-
-
-
-.stesla0 {
-
-    background-image: url(../img/tesla_3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    
-
-
-}
-
-
-
-
-.stesla {
-    background-image: url(../img/tesla_y.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-    
-
-
-
-
-
-}
-
-
-.modely {
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 120px;
-    width: 100%;
-    text-align: center;
-    
-    
-}
-
-.textsforteslay {
-
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    position: absolute;
-    top: 180px;
-    color: rgb(43, 43, 43);
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    width: 80%;
-    text-align: center;
-    
-    
-}
-
-.teslaytext2 {
-    text-decoration: underline;
-}
-
-.steslas {
-    background-image: url(../img/tesla_s.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
-
-.steslaxx {
-    background-image: url(../img/tesla_x.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
-
-.solar {
-    background-image: url(../img/house.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
-
-.roof {
-    background-image: url(../img/tesla_house.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    position: relative;
-}
-
-.foot {
-    height: 40px;
-    background-color: rgb(47, 67, 79);
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:300;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button1 {
-    background-color: #171a20cc;
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  height: 40px;
-  width: 264px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  border-radius: 5px;
-  margin-right: 10px;
-  animation: bounceInLeft 1s;
-  
-  
-}
-
-.button2 {
-    background-color: #f4f4f4a6;
-  border: none;
-  color: #171a20cc;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  height: 40px;
-  width: 264px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  border-radius: 5px;
-  animation: bounceInRight 1s;
-  
-  
-}
-
-.forbutton {
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-    transform: translate(-50%);
-    width: max-content;
-
-}
-
-.button1:hover {
-    background-color: black;
-}
-.button2:hover {
-    background-color: rgb(215, 215, 215);
-}
-
-.forbuttony {
-    position: absolute;
-    bottom: 100px;
-    left: 50%;
-    transform: translate(-50%);
-    width: max-content;
-}
-
-
-
-.respmenu {
-    display: none;
-    height: 100vh;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    z-index: 999;
-    position: fixed;
-    animation: fadeIn 0.5s;
-    left: 0;
-    right: 0;
-    
-}
-
-.xicon {
-    width: 30px;
-    height: auto;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    cursor: pointer;
-}
-
-.rightrespmenu {
-    height: 100vh;
-    width: 230px;
-    position: absolute;
-    right: 0;
-    background-color: white;
-    animation: fadeInRight 0.5s;
-}
-
-.rightmenu {
-    position: absolute;
-    list-style: none;
-    top: 100px;
-    left: 35px;
-    font-size: 17px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-
-}
-
-.resp {
-    display: none;
-}
-
-.amenul {
-    padding-bottom: 20px;
-}
-
-@media screen and (max-width: 960px) {
-    .menu {
-        display: none;
-    }
-    .textmenu2 {
-        display: none;
-    }
-    .resp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        z-index: 996;
-     }
-     #menubutton {
-        margin-right: 30px;
-        width: 70px;
-        height: 35px;
-        background-color: #ffffff78;
-        border-radius: 5px;
-        border: none;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        cursor: pointer;
-        font-size: 15px;
-
-     }
-
-    #menubutton:hover {
-        background-color: #ffffffc2;
-    }
-    .navbar {
-        display: flex;
-        justify-content: flex-end;
-        z-index: 997;
-    }
-
-   
-}
-
-
-@media screen and (max-width: 586px) {
-
-    .forbutton {
-        max-width:fit-content;
-        width: auto;
-    }
-    .forbuttony {
-        max-width: fit-content;
-        width: auto;
-
-    }
-
-    .button1 {
-        margin-bottom: 10px;
-    }
-}
-
-.slaq {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    bottom: 30px;
-    align-items: center;
-    left: 48.2%;
-    animation: fadeInDown 2s infinite;
-    
-}
-
-
-p {
-    animation: fadeInDown 1.5s;
-}
-
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davit Karapetyan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="webheader">
+            <div class="contentheader">
+                <img src="img/DK-LOGO.png" class="logo" alt="logo">
+                <ul class="textsheader">
+                    <li class="texthome">Home</li>
+                    <li class="textservices">Services</li>
+                    <li class="textaboutus">About Us</li>
+                    <li class="textcontactus">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="main">
+            <div>
+                <img src="img/illustration.png" class="homeillustration" alt="illustration">
+            </div>
+            <div class="homecontent">
+                <h1 class="homeheadcontent">We're <p class="hometextgradient">Building Software</p> Your Business
+                </h1>
+                <p class="homesecondcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <button class="contactbutton">Contact Us</button>
+            </div>
+        </div>
+        <div class="trust">
+            <p>TRUSTED BY</p>
+        </div>
+        <div class="logos">
+            <a href="https://www.nike.com" target="_blank"><img src="img/chevrolet.png" class="logo1" alt=""></a>
+            <a href="https://www.nike.com" target="_blank"><img src="img/kk.png" class="logo1" alt=""></a>
+            <a href="https://www.nike.com" target="_blank"><img src="img/nike.png" class="logo1" alt=""></a>
+            <a href="https://www.nike.com" target="_blank"><img src="img/cn.png" class="logo1" alt=""></a>
+            <a href="https://www.nike.com" target="_blank"><img src="img/bb.png" class="logo1" alt=""></a>
+        </div>
+    </section>
+    <section class="services">
+        <h1 class="textservicesh1">Services</h1>
+        <div class="for4div">
+            <div class="rec1">
+                <div class="gradientrec1"><img src="img/Design.png" class="iconpng" alt="design"></div>
+                <h3 class="servtitle">Design</h3>
+                <p class="contentservice">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+            <div class="rec1">
+                <div class="gradientrec2"><img src="img/code.png" class="iconpng" alt="code"></div>
+                <h3 class="servtitle">Development</h3>
+                <p class="contentservice">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+            <div class="rec1">
+                <div class="gradientrec3"><img src="img/smm.png" class="iconpng" alt="smm"></div>
+                <h3 class="servtitle">SMM</h3>
+                <p class="contentservice">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+            <div class="rec1">
+                <div class="gradientrec4"><img src="img/SEO.png" class="iconpng" alt="seo"></div>
+                <h3 class="servtitle">SEO</h3>
+                <p class="contentservice">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever </p>
+            </div>
+        </div>
+    </section>
+    <section class="aboutus">
+        <div><img src="img/like3d.png" class="a3dicon1" alt=""></div>
+        <div><img src="img/comment3d.png" class="a3dicon2" alt=""></div>
+        <h1 class="titleaboutus">About Us</h1>
+        <div class="textforaboutus">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum bsdah ewdeyu ddeyduwdg sqwdyg wdewyg
+                23yu sdhsfb sif u f sfdsjfhbds fhdsjf dbfsjhf sfbsd fjhb bhj ebuf fufe fw fweuyfef fywfyegf wfwyfuf
+                fwfywf wfefuywg yuyfw fwefg fywf fwyufeg ffyefw feyrf eyfgeuferfb eruferufhevr fbreufberfberuvf ve
+                erfbeuv fberyfberuvfberufnbreuyfvbrenv brferuvbferuv berhfbve fhberuv ferbhfvruebv rehfbrevfrehferu
+                fvbhuhb sdf sfhsf dhy</p>
+        </div>
+    </section>
+    <section class="contactus">
+        <div class="form1">
+            <div class="elipsestroke"></div>
+            <div class="elipse"></div>
+        </div>
+        <div class="form">
+            <form class="form2">
+                <input type="text" placeholder="Name" class="forms">
+                <input type="tel" placeholder="Phone" class="forms">
+                <input type="email" placeholder="Email" class="forms">
+            </form>
+            <button class="sendbutton">Send</button>
+            <div class="contacttexts">
+                <div class="forcall"><img src="img/call.png" alt="" class="callicon">
+                    <span class="companyphonenumber">+7 777 777 77</span>
+                </div>
+                <div class="foremail"><img src="img/email.png" alt="" class="mailicon">
+                    <span class="companyemail">itcompany@gmail.com</span>
+                </div>
+            </div>
+        </div>
+        <h1 class="titlecontactus">Contact Us</h1>
+    </section>
+
+    <footer class="footer">
+        <div class="foot">
+            <div class="logofoot"><img src="img/DK-LOGO.png" class="footlogo" alt="logo">
+                <span class="logotext">Company Name</span>
+            </div>
+            <span class="copyright">All Rights Reserved 2023 ©</span>
+            <div class="icons">
+                <img src="img/facebook.png" alt="facebook" class="iconn">
+                <img src="img/insta.png" alt="instagram" class="iconn">
+                <img src="img/behance.png" alt="behance" class="iconn">
+                <img src="img/linkedin.png" alt="linkedin" class="iconn">
+            </div>
+        </div>
+    </footer>
+
+</body>
