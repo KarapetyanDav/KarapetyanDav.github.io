@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .logo {
@@ -104,7 +105,6 @@
 .home {
 
     width: 100%;
-    height: 100vh;
     background-image: url(../img/homebackground.jpg);
     background-size: cover;
     background-position: center;
@@ -172,6 +172,7 @@
 
 .contactbutton:hover {
     background-image: linear-gradient(to top, #334794 0%, #98d9fe 90%);
+    cursor: pointer;
 }
 
 .contactbutton:active {
@@ -339,7 +340,6 @@
 
 .aboutus {
     width: 100%;
-    height: 55vh;
     background-image: url(../img/about.png);
     background-size: cover;
     background-position: center;
@@ -462,6 +462,7 @@
 
 .sendbutton:hover {
     background-image: linear-gradient(to top, #334794 0%, #98d9fe 90%);
+    cursor: pointer;
 }
 
 .sendbutton:active {
@@ -566,15 +567,77 @@
 }
 
 .iconn {
-    height: 15px;
+    height: 17px;
+    opacity: 100%;
+    transition: 0.2s;
 }
 
-.logofoot{
+.iconn:hover {
+    opacity: 60%;
+}
+
+.logofoot {
     display: flex;
     align-items: center;
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 1220px) {
+    .homeheadcontent {
+        font-size: 40px;
+    }
+
+    .homesecondcontent {
+        width: 50vh;
+        font-size: 18.5px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .homecontent {
+        left: 50%;
+        translate: -50%;
+        text-align: center;
+        max-width: 95%;
+        width: 85vh;
+    }
+
+    .contactbutton {
+        left: 50%;
+        translate: -50%;
+        top: 70vh;
+    }
+    .homesecondcontent{
+        width: auto;
+    }
+    .hometextgradient{
+        display: inline;
+    }
+    .homeheadcontent {
+        font-size: 35px;
+    }
+    .homeillustration{
+        left: 50%;
+        translate: -50%;
+        top: 40vh;
+        width: 70vh;
+    }
+    .main{
+        height: 105vh;
+    }
+    
 }
