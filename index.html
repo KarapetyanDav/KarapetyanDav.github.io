@@ -20,27 +20,80 @@
     <header>
         <div class="webheader">
             <div class="contentheader">
-                <a href="#homelink"><img src="img/DK-LOGO.png" class="logo" alt="logo"></a>
+                <a href="#homelink"><img src="img/IT Logo.png" class="logo" alt="logo"></a>
                 <ul class="textsheader">
                     <li class="texthome"><a href="#homelink">Home</a></li>
                     <li class="textservices"><a href="#serviceslink">Services</a></li>
                     <li class="textaboutus"><a href="#aboutuslink">About Us</a></li>
                     <li class="textcontactus"><a href="#contactuslink">Contact Us</a></li>
                 </ul>
+                <div class="svgs" id="svgmenu" onclick="svgmenu1()">
+                    <svg id="svg01" class="svg1" xmlns:x="http://ns.adobe.com/Extensibility/1.0/"
+                        xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+                        xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px"
+                        viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #373D49;
+                            }
+                        </style>
+                        <metadata>
+                            <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slices />
+                                <sliceSourceBounds bottomLeftOrigin="true" height="1" width="9" x="3" y="9" />
+                            </sfw>
+                        </metadata>
+                        <g>
+                            <path class="st0"
+                                d="M11.6,6H3.5C3.2,6,3,5.7,3,5.5S3.2,5,3.5,5h8.1C11.8,5,12,5.2,12,5.5S11.8,6,11.6,6z" />
+                        </g>
+                    </svg>
+                    <svg id="svg02" class="svg2" xmlns:x="http://ns.adobe.com/Extensibility/1.0/"
+                        xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+                        xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px"
+                        viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0 {
+                                fill: #373D49;
+                            }
+                        </style>
+                        <metadata>
+                            <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slices />
+                                <sliceSourceBounds bottomLeftOrigin="true" height="1" width="9" x="3" y="9" />
+                            </sfw>
+                        </metadata>
+                        <g>
+                            <path class="st0"
+                                d="M11.6,6H3.5C3.2,6,3,5.7,3,5.5S3.2,5,3.5,5h8.1C11.8,5,12,5.2,12,5.5S11.8,6,11.6,6z" />
+                        </g>
+                    </svg>
+                </div>
             </div>
         </div>
+        <div class="rightmenu" id="rightmenujs" style="opacity: 0;">
+            <ul class="righttextsheader">
+                <li class="righttexthome" onclick="closemenutext()"><a href="#homelink">Home</a></li>
+                <li class="righttextservices" onclick="closemenutext2()"><a href="#serviceslink">Services</a></li>
+                <li class="righttextaboutus" onclick="closemenutext3()"><a href="#aboutuslink">About Us</a></li>
+                <li class="righttextcontactus" onclick="closemenutext4()"><a href="#contactuslink">Contact Us</a></li>
+            </ul>
+        </div>
     </header>
+    <div class="blureffect" id="blureffectjs" onclick="closemenu()"></div>
     <section class="home" id="homelink">
         <div class="main">
-            <div>
-                <img src="img/illustration copy.png" class="homeillustration" alt="illustration">
-            </div>
             <div class="homecontent">
-                <h1 class="homeheadcontent">We're <p class="hometextgradient">Building Software</p> Your Business
+                <h1 class="homeheadcontent">We're <span class="hometextgradient">Building Software</span> Your Business
                 </h1>
                 <p class="homesecondcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                 <a href="#contactuslink"><button class="contactbutton">Contact Us</button></a>
+            </div>
+            <div>
+                <img src="img/illustration copy.png" class="homeillustration" alt="illustration">
             </div>
         </div>
         <div class="trust">
@@ -101,40 +154,48 @@
         </div>
     </section>
     <section class="contactus" id="contactuslink">
-        <div class="form1">
+        <h1 class="titlecontactus">Contact Us</h1>
+        <div class="elipses">
             <div class="elipsestroke"></div>
             <div class="elipse"></div>
         </div>
-        <div class="form">
-            <form class="form2">
-                <input type="text" placeholder="Name" class="forms">
-                <input type="tel" placeholder="Phone" class="forms">
-                <input type="email" placeholder="Email" class="forms">
-            </form>
-            <button class="sendbutton">Send</button>
-            <div class="contacttexts">
-                <div class="forcall"><img src="img/call.png" alt="" class="callicon">
-                    <span class="companyphonenumber">+7 777 777 77</span>
-                </div>
-                <div class="foremail"><img src="img/email.png" alt="" class="mailicon">
-                    <span class="companyemail">itcompany@gmail.com</span>
+        <div class="formm">
+            <div class="form">
+                <form class="form2">
+                    <input type="text" placeholder="Name" class="forms">
+                    <input type="tel" placeholder="Phone" class="forms">
+                    <input type="email" placeholder="Email" class="forms">
+                </form>
+                <button class="sendbutton">Send</button>
+                <div class="contacttexts">
+                    <div class="forcall"><img src="img/call.png" alt="" class="callicon">
+                        <span class="companyphonenumber">+7 777 777 77</span>
+                    </div>
+                    <div class="foremail"><img src="img/email.png" alt="" class="mailicon">
+                        <span class="companyemail">itcompany@gmail.com</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <h1 class="titlecontactus">Contact Us</h1>
     </section>
 
     <footer class="footer">
         <div class="foot">
-            <a href="#homelink"><div class="logofoot"><img src="img/DK-LOGO.png" class="footlogo" alt="logo">
-                <span class="logotext">Company Name</span>
-            </div></a>
+            <a href="#homelink">
+                <div class="logofoot"><img src="img/IT Logo.png" class="footlogo" alt="logo">
+                    <span class="logotext">Company Name</span>
+                </div>
+            </a>
             <span class="copyright">All Rights Reserved 2023 ©</span>
             <div class="icons">
-               <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook" class="iconn"></a>
-               <a href="https://www.instagram.com" target="_blank"><img src="img/insta.png" alt="instagram" class="iconn"></a>
-               <a href="https://www.behance.net" target="_blank"><img src="img/behance.png" alt="behance" class="iconn"></a>
-               <a href="https://www.linkedin.com" target="_blank"><img src="img/linkedin.png" alt="linkedin" class="iconn"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"
+                        class="iconn"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="img/insta.png" alt="instagram"
+                        class="iconn"></a>
+                <a href="https://www.behance.net" target="_blank"><img src="img/behance.png" alt="behance"
+                        class="iconn"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="img/linkedin.png" alt="linkedin"
+                        class="iconn"></a>
             </div>
         </div>
     </footer>
