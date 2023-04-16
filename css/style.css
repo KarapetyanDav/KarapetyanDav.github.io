@@ -273,6 +273,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px 0 rgba(29, 39, 53, 0.16);
 }
 
 .gradientrec2 {
@@ -283,6 +284,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px 0 rgba(29, 39, 53, 0.16);
 }
 
 
@@ -296,6 +298,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px 0 rgba(29, 39, 53, 0.16);
 }
 
 
@@ -307,6 +310,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 2px 0 rgba(29, 39, 53, 0.16);
 }
 
 .servtitle {
@@ -427,7 +431,8 @@
 
 .form {
     width: 52vh;
-    height: 60vh;
+    padding-bottom: 6vh;
+    padding-top: 6vh;
     border-radius: 60px;
     -webkit-backdrop-filter: blur(11px);
     backdrop-filter: blur(11px);
@@ -900,7 +905,7 @@ a:visited {
 
     .elipse {
         left: 0;
-        top: 78%;
+        top: 75%;
     }
 
     .elipsestroke {
