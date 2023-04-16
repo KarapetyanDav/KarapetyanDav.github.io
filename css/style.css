@@ -400,8 +400,8 @@
 }
 
 .elipses {
-    width: 52vh;
-    height: 60vh;
+    width: 47vh;
+    height: 62vh;
     position: absolute;
     left: 50%;
     translate: -50%;
@@ -430,9 +430,7 @@
 }
 
 .form {
-    width: 52vh;
-    padding-bottom: 6vh;
-    padding-top: 6vh;
+    padding: 6vh;
     border-radius: 60px;
     -webkit-backdrop-filter: blur(11px);
     backdrop-filter: blur(11px);
@@ -468,7 +466,7 @@
 }
 
 .form2 {
-    width: 60%;
+    width: 35vh;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -663,6 +661,7 @@ a:visited {
 }
 
 
+
 /* Responsive */
 
 @media screen and (max-width: 1160px) {
@@ -775,9 +774,7 @@ a:visited {
         gap: 45px;
     }
 
-    .form {
-        width: 45vh;
-    }
+
 
     .elipses {
         width: 45vh;
@@ -855,6 +852,7 @@ a:visited {
     .elipse {
         width: 80px;
         height: 80px;
+        top: 73%;
     }
 
     .main {
@@ -877,10 +875,9 @@ a:visited {
 
 @media screen and (max-width: 450px) {
     .form2 {
-        width: 74%;
+        width: 28vh;
     }
 
-    .form,
     .elipses {
         width: 40vh;
     }
@@ -921,3 +918,4 @@ a:visited {
         width: 65%;
     }
 }
+
