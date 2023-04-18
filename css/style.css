@@ -6,6 +6,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .logo {
     display: block;
     width: 53px;
@@ -67,6 +71,13 @@
     font-size: 15px;
     position: relative;
     color: #003067;
+}
+
+.texthome:active,
+.textservices:active,
+.textaboutus:active,
+.textcontactus:active {
+    color: #0030677a;
 }
 
 /* Menu Animation */
